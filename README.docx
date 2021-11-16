@@ -3,4 +3,5 @@ cd DAWExamen1Eval/
 cat > README.docx
 git add .
 git commit -m "Primer commit del examen"
-añado commit
+git push -u origin main
+touch > private.txt
