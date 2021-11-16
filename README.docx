@@ -39,3 +39,9 @@ git checkout main
 git merge v0.2
 //*Me situo en el fichero 1.txt y resuelvo el conflicto clickando la opcion de "Accept both changes" 
 //para que ambos cambios hechos desde diferentes ramas se mantengan*
+git add .
+git commit -m "Resuelvo conflicto"
+git branch --merged main
+//*He creado el tag con el nombre v2 en vez de v0.2 por error, lo siento!*
+git tag v2 -m "v2"
+git branch -d v0.2
