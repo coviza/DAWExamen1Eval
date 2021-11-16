@@ -1,0 +1,6 @@
+git clone https://github.com/coviza/DAWExamen1Eval.git
+cd DAWExamen1Eval/
+cat > README.docx
+git add .
+git commit -m "Primer commit del examen"
+añado commit
